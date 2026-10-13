@@ -1,0 +1,747 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.2.xsd" schemaVersion="1.2">
+  <Source>GaiaCode-OMEGA</Source>
+  <Created>2026-07-15T09:45:39Z</Created>
+  <Network code="XX">
+    <Station code="<STATION_CODE>">
+      <Site>
+        <Name />
+      </Site>
+      <Channel code="HNZ" locationCode="01" alternateCode="5">
+        <Latitude>0.0</Latitude><Longitude>0.0</Longitude><Elevation>0</Elevation><Depth>0</Depth>
+        <Azimuth>0</Azimuth>
+        <Dip>-90</Dip>
+        <SampleRate>100</SampleRate>
+        <Sensor>
+          <Description>GAIA SIGMA</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>104508.196721311</Value>
+            <Frequency>1</Frequency>
+            <InputUnits>
+              <Name>m/s**2</Name>
+            </InputUnits>
+            <OutputUnits>
+              <Name>count</Name>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>m/s**2</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>34702224860.5916</NormalizationFactor>
+              <NormalizationFrequency>1.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real>-1721.59277416721</Real>
+                <Imaginary>1982.97328294588</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real>-1721.59277416721</Real>
+                <Imaginary>1982.97328294588</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real>-5026.54824574367</Real>
+                <Imaginary>0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>0.255</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency>0.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>1</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>count</Name>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+              <Numerator>1.0</Numerator>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate>100</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0</Delay>
+              <Correction>0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>409836.06557377</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="HNN" locationCode="01" alternateCode="6">
+        <Latitude>0.0</Latitude><Longitude>0.0</Longitude><Elevation>0</Elevation><Depth>0</Depth>
+        <Azimuth>0</Azimuth>
+        <Dip>0</Dip>
+        <SampleRate>100</SampleRate>
+        <Sensor>
+          <Description>GAIA SIGMA</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>104508.196721311</Value>
+            <Frequency>1</Frequency>
+            <InputUnits>
+              <Name>m/s**2</Name>
+            </InputUnits>
+            <OutputUnits>
+              <Name>count</Name>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>m/s**2</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>34702224860.5916</NormalizationFactor>
+              <NormalizationFrequency>1.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real>-1721.59277416721</Real>
+                <Imaginary>1982.97328294588</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real>-1721.59277416721</Real>
+                <Imaginary>1982.97328294588</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real>-5026.54824574367</Real>
+                <Imaginary>0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>0.255</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency>0.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>1</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>count</Name>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+              <Numerator>1.0</Numerator>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate>100</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0</Delay>
+              <Correction>0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>409836.06557377</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="HNE" locationCode="01" alternateCode="7">
+        <Latitude>0.0</Latitude><Longitude>0.0</Longitude><Elevation>0</Elevation><Depth>0</Depth>
+        <Azimuth>90</Azimuth>
+        <Dip>0</Dip>
+        <SampleRate>100</SampleRate>
+        <Sensor>
+          <Description>GAIA SIGMA</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>104508.196721311</Value>
+            <Frequency>1</Frequency>
+            <InputUnits>
+              <Name>m/s**2</Name>
+            </InputUnits>
+            <OutputUnits>
+              <Name>count</Name>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>m/s**2</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>34702224860.5916</NormalizationFactor>
+              <NormalizationFrequency>1.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real>-1721.59277416721</Real>
+                <Imaginary>1982.97328294588</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real>-1721.59277416721</Real>
+                <Imaginary>1982.97328294588</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real>-5026.54824574367</Real>
+                <Imaginary>0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>0.255</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency>0.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>1</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>count</Name>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+              <Numerator>1.0</Numerator>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate>100</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0</Delay>
+              <Correction>0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>409836.06557377</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="HNC" locationCode="01" alternateCode="8">
+        <Latitude>0.0</Latitude><Longitude>0.0</Longitude><Elevation>0</Elevation><Depth>0</Depth>
+        <Azimuth>0</Azimuth>
+        <Dip>0</Dip>
+        <SampleRate>100</SampleRate>
+        <Sensor>
+          <Description>GAIA SIGMA</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>104508.196721311</Value>
+            <Frequency>1</Frequency>
+            <InputUnits>
+              <Name>m/s**2</Name>
+            </InputUnits>
+            <OutputUnits>
+              <Name>count</Name>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>m/s**2</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>34702224860.5916</NormalizationFactor>
+              <NormalizationFrequency>1.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real>-1721.59277416721</Real>
+                <Imaginary>1982.97328294588</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real>-1721.59277416721</Real>
+                <Imaginary>1982.97328294588</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real>-5026.54824574367</Real>
+                <Imaginary>0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>0.255</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency>0.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>1</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>count</Name>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+              <Numerator>1.0</Numerator>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate>100</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0</Delay>
+              <Correction>0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>409836.06557377</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Latitude>0.0</Latitude>
+      <Longitude>0.0</Longitude>
+      <Elevation>0</Elevation>
+      <Channel code="HNZ" locationCode="00" alternateCode="5">
+        <Latitude>0.0</Latitude>
+        <Longitude>0.0</Longitude>
+        <Elevation>0</Elevation>
+        <Depth>0</Depth>
+        <Azimuth>0</Azimuth>
+        <Dip>-90</Dip>
+        <SampleRate>100</SampleRate>
+        <Sensor>
+          <Description>GAIA SIGMA</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>104508.196721311</Value>
+            <Frequency>1</Frequency>
+            <InputUnits>
+              <Name>m/s**2</Name>
+            </InputUnits>
+            <OutputUnits>
+              <Name>count</Name>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>m/s**2</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>34702224860.5916</NormalizationFactor>
+              <NormalizationFrequency>1.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real>-1721.59277416721</Real>
+                <Imaginary>1982.97328294588</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real>-1721.59277416721</Real>
+                <Imaginary>1982.97328294588</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real>-5026.54824574367</Real>
+                <Imaginary>0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>0.255</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency>0.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>1</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>count</Name>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+              <Numerator>1.0</Numerator>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate>100</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0</Delay>
+              <Correction>0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>409836.06557377</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="HNN" locationCode="00" alternateCode="6">
+        <Latitude>0.0</Latitude>
+        <Longitude>0.0</Longitude>
+        <Elevation>0</Elevation>
+        <Depth>0</Depth>
+        <Azimuth>0</Azimuth>
+        <Dip>0</Dip>
+        <SampleRate>100</SampleRate>
+        <Sensor>
+          <Description>GAIA SIGMA</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>104508.196721311</Value>
+            <Frequency>1</Frequency>
+            <InputUnits>
+              <Name>m/s**2</Name>
+            </InputUnits>
+            <OutputUnits>
+              <Name>count</Name>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>m/s**2</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>34702224860.5916</NormalizationFactor>
+              <NormalizationFrequency>1.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real>-1721.59277416721</Real>
+                <Imaginary>1982.97328294588</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real>-1721.59277416721</Real>
+                <Imaginary>1982.97328294588</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real>-5026.54824574367</Real>
+                <Imaginary>0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>0.255</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency>0.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>1</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>count</Name>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+              <Numerator>1.0</Numerator>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate>100</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0</Delay>
+              <Correction>0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>409836.06557377</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="HNE" locationCode="00" alternateCode="7">
+        <Latitude>0.0</Latitude>
+        <Longitude>0.0</Longitude>
+        <Elevation>0</Elevation>
+        <Depth>0</Depth>
+        <Azimuth>90</Azimuth>
+        <Dip>0</Dip>
+        <SampleRate>100</SampleRate>
+        <Sensor>
+          <Description>GAIA SIGMA</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>104508.196721311</Value>
+            <Frequency>1</Frequency>
+            <InputUnits>
+              <Name>m/s**2</Name>
+            </InputUnits>
+            <OutputUnits>
+              <Name>count</Name>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>m/s**2</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>34702224860.5916</NormalizationFactor>
+              <NormalizationFrequency>1.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real>-1721.59277416721</Real>
+                <Imaginary>1982.97328294588</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real>-1721.59277416721</Real>
+                <Imaginary>1982.97328294588</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real>-5026.54824574367</Real>
+                <Imaginary>0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>0.255</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency>0.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>1</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>count</Name>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+              <Numerator>1.0</Numerator>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate>100</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0</Delay>
+              <Correction>0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>409836.06557377</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="HNC" locationCode="00" alternateCode="8">
+        <Latitude>0.0</Latitude>
+        <Longitude>0.0</Longitude>
+        <Elevation>0</Elevation>
+        <Depth>0</Depth>
+        <Azimuth>0</Azimuth>
+        <Dip>0</Dip>
+        <SampleRate>100</SampleRate>
+        <Sensor>
+          <Description>GAIA SIGMA</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>104508.196721311</Value>
+            <Frequency>1</Frequency>
+            <InputUnits>
+              <Name>m/s**2</Name>
+            </InputUnits>
+            <OutputUnits>
+              <Name>count</Name>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>m/s**2</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>34702224860.5916</NormalizationFactor>
+              <NormalizationFrequency>1.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real>-1721.59277416721</Real>
+                <Imaginary>1982.97328294588</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real>-1721.59277416721</Real>
+                <Imaginary>1982.97328294588</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real>-5026.54824574367</Real>
+                <Imaginary>0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>0.255</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency>0.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>1</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>count</Name>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+              <Numerator>1.0</Numerator>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate>100</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0</Delay>
+              <Correction>0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>409836.06557377</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+  </Network>
+</FDSNStationXML>

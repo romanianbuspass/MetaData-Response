@@ -1,0 +1,47 @@
+# ---- Large data files (excluded: code + docs only) ----
+yasmine-stationxml-editor-4.1.1-beta/backend/yasmine/app/tests/integration/data/stationxmls/ne_v_1_0.xml
+yasmine-stationxml-editor-4.1.1-beta/backend/yasmine/app/tests/integration/data/stationxmls/ne_v_1_1.xml
+
+# Bulk seismic waveform data
+*.mseed
+*.seed
+*.sac
+*.miniseed
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.pytest_cache/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ---- Java ----
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# ---- Node / frontend builds ----
+node_modules/
+build/
+dist/
+
+# ---- C builds ----
+*.o
+*.obj
+*.a
+*.so
+*.exe
+
+# ---- OS / IDE ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~

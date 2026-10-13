@@ -1,0 +1,6 @@
+.settings
+.vscode/
+.DS_Store
+/.gradle/
+/.idea/
+data/
